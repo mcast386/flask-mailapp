@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template, redirect, url_for
 import mail_dict  #importem com un mòdul el codi d'acces al diccionari
 app = Flask(__name__)
-
+# cambios
 #URL arrel, si accedeixen a l'arrel, fem redirect a getmail
 @app.route("/")
 def inici():
